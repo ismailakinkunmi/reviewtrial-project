@@ -25,10 +25,10 @@ HTML and CSS
 
 ### technology used
 
-1.Linters
-2.VScode
-3.html
-4.github
+1. Linters
+2. VScode
+3. html
+4. ithub
 
 #### Live Demo
 
