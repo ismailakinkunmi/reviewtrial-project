@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>reviewtrial-project</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- survey section  -->
+    <section class="survey-section">
+      <h1 class="title">Ismail Survey Form</h1>
+      <h3 class="description">This is a Survey form</h3>
+      <form class="form">
+        <div class="fname">
+          <label for="firstname">firstname:</label>
+          <input
+            id="firstname"
+            type="text"
+            placeholder="First name"
+            required
+            class="input"
+          />
+        </div>
+        <div class="sname">
+          <label for="surname">surname:</label>
+          <input
+            id="surname"
+            type="text"
+            placeholder="Surname"
+            required
+            class="input"
+          />
+        </div>
+
+        <!-- email pattern character@character.com -->
+        <div class="mail">
+          <label for="email">email:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Email"
+            required
+            class="input"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{3,}$"
+          />
+        </div>
+        <div class="pword">
+          <label for="password">password:</label>
+          <input
+            id="password"
+            type="password"
+            placeholder="Password"
+            required
+            class="input"
+          />
+        </div>
+        <div class="developer">
+          <label for="microverse">Microverse developers</label>
+          <select id="dropdown">
+            <option id="student_name">Gemechu</option>
+            <option id="student_name">Ismail</option>
+            <option id="student_name">Others</option>
+          </select>
+        </div>
+        <div class="recommend">
+          <div>
+            <label>Would you recommend Microverse to a friend?</label>
+          </div>
+          <div class="recommend-option">
+            <input
+              type="radio"
+              name="Recommend_Microverse"
+              value="definitely"
+              id="definitely"
+            />
+            <label for="definitely">Definitely</label>
+            <input
+              type="radio"
+              name="Recommend_Microverse"
+              value="MayBe"
+              id="maybe"
+            />
+            <label for="maybe">Maybe</label>
+            <input
+              type="radio"
+              name="Recommend_Microverse"
+              value="NotSure"
+              id="notsure"
+            />
+            <label for="notsure">Not sure</label>
+          </div>
+        </div>
+        <div class="skill">
+          <label>Microverse Technical skills</label>
+          <div>
+            <input
+              type="checkbox"
+              id="html&css"
+              name="language1"
+              value="HTML & CSS"
+            />
+            <label for="html&css"> HTML & CSS</label>
+          </div>
+          <div>
+            <input type="checkbox" id="ruby" name="language2" value="Ruby" />
+            <label for="ruby"> Ruby</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              id="database"
+              name="language3"
+              value="Database"
+            />
+            <label for="database"> Database</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              id="javascript"
+              name="language4"
+              value="Javascript"
+            />
+            <label for="javascript"> Javascript</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              id="algorithms"
+              name="language5"
+              value="Algorithms"
+            />
+            <label for="algorithms"> Algorithms</label>
+          </div>
+        </div>
+        <div class="comment">
+          <label>Any comments or suggestions?</label>
+          <textarea
+            placeholder="Enter your comment here...."
+            cols="50"
+            rows="5"
+          >
+          </textarea>
+        </div>
+        <br />
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
