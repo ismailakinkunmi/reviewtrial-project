@@ -16,8 +16,7 @@ This project is self code review on completed project during the admissions tria
 1. Setup
 2. Install
 3. Usage
-4. Run tests
-5. Deployment
+4. Deployment
 
 ### Built With
 
